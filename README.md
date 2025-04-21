@@ -3,7 +3,7 @@ Software Test, Automation QA
 
 # Developer Reflection
 
-####How can I ensure that my code, program, or software is functional and secure?
+#### How can I ensure that my code, program, or software is functional and secure?
 Ensuring functionality and security begins with writing clean, modular code backed by rigorous unit testing. Throughout this project, I implemented JUnit tests to verify that each service—Contact, Task, and Appointment—met its functional requirements. I followed test-driven development (TDD) principles where appropriate, ensuring that features were validated early and often.
 
 To strengthen reliability and minimize risk:
@@ -18,7 +18,7 @@ Incorporated boundary testing and negative testing to uncover hidden defects
 
 Security and functionality are ongoing commitments, so I emphasized maintainability and readability to make future improvements and audits easier.
 
-####How do I interpret user needs and incorporate them into a program?
+#### How do I interpret user needs and incorporate them into a program?
 Understanding user needs starts with clearly identifying business rules and constraints. For this project, I translated requirements like:
 
 “No contact ID may be longer than 10 characters”
@@ -39,7 +39,7 @@ What validations are needed to prevent invalid or dangerous behavior?
 
 By building thorough tests and error handling directly into the logic, I ensured that the software consistently respected those user needs, even in edge cases.
 
-####How do I approach designing software?
+#### How do I approach designing software?
 I take a service-oriented and modular approach to software design. For this project:
 
 Each feature was encapsulated in its own service class (ContactService, TaskService, AppointmentService)
